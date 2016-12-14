@@ -7,6 +7,9 @@ brew "mercurial"
 tap "koekeishiya/kwm"
 brew "kwm"
 
+tap "koekeishiya/khd"
+brew "khd", restart_service: true
+
 tap "caskroom/cask"
 cask "iterm2"
 
