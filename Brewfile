@@ -12,6 +12,7 @@ brew "khd", restart_service: true
 
 tap "caskroom/cask"
 cask "iterm2"
+cask "recordit"
 cask "yubiswitch"
 cask "yubikey-personalization-gui"
 
