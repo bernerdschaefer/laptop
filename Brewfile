@@ -1,5 +1,7 @@
 cask_args appdir: "/Applications"
 
+brew "jq"
+
 brew "go"
 brew "govendor"
 brew "mercurial"
@@ -11,6 +13,7 @@ tap "koekeishiya/khd"
 brew "khd", restart_service: true
 
 tap "caskroom/cask"
+cask "docker"
 cask "iterm2"
 cask "recordit"
 cask "yubiswitch"
