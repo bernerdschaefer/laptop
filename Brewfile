@@ -1,5 +1,6 @@
 cask_args appdir: "/Applications"
 
+brew "graphviz"
 brew "jq"
 
 brew "go"
