@@ -1,7 +1,9 @@
 cask_args appdir: "/Applications"
 
+brew "awscli"
 brew "graphviz"
 brew "jq"
+brew "protobuf"
 
 brew "go"
 brew "govendor"
@@ -14,6 +16,7 @@ tap "koekeishiya/khd"
 brew "khd", restart_service: true
 
 tap "caskroom/cask"
+cask "1password"
 cask "docker"
 cask "iterm2"
 cask "recordit"
