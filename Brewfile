@@ -5,6 +5,8 @@ brew "graphviz"
 brew "jq"
 brew "protobuf"
 
+brew "rebar@3"
+
 brew "go"
 brew "govendor"
 brew "mercurial"
