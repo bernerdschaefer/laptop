@@ -11,10 +11,8 @@ brew "go"
 brew "govendor"
 brew "mercurial"
 
-tap "koekeishiya/kwm"
-brew "kwm"
-
-tap "koekeishiya/khd"
+tap "koekeishiya/formulae"
+brew "kwm", restart_service: true
 brew "khd", restart_service: true
 
 tap "caskroom/cask"
